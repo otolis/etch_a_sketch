@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 2px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+      
+}
+
+.gridBlocks {
+    background-color: whitesmoke;
+    width: 31px;
+    height: 31px;
+    border: 1px solid #ccc;
+}
