@@ -2,30 +2,35 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
+    background-color: #F8F1E8;
 }
 
+#newGrid {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.gridBlocks {
+    border: 1px solid #2C5F2D;
+    background-color: white;
+    transition: background-color 0 linear, border 0.2s ease, box-shadow 0.2s ease;
+    box-sizing: border-box;
+}
 #container {
-    
-    border: 2px solid black;
-    border-radius: 7px;
-    width: 600px;
-    height: 600px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    gap: 2px;
-    box-sizing: border-box;
-    background-color: antiquewhite;
-      
+    width: 500px;
+    height: 500px;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-.gridBlocks {
-    background-color: whitesmoke;
-    width: 31px;
-    height: 31px;
-    border: 1px solid #ccc;
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
 }
